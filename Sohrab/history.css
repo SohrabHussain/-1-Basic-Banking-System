@@ -1,0 +1,22 @@
+.TransHist{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+    
+  }
+  .TransHistImg{
+      margin: 2vh 0vw;
+      width: 4vw;
+      height: 4vw;
+  }
+  .TransHist p{
+    font-size: 4vh;
+    width: 25vw;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,90 @@
+.mainframe{
+  min-height: 69vh;
+  width: 99vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  height: 65vh;
+  width: 40vw;
+  margin: 1.5vh 0vw;
+  border: 2px solid gray;
+  border-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 20px gray;
+}
+.createAcc{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+  
+}
+.createAccImg{
+  width: 4vw;
+  height: 4vw;
+  
+}
+.createAcc1 p{
+  font-size: 2vh;
+  width: 7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #659DBD;
+}
+.input{
+  border-radius: 15px;
+  border: 2px solid gray;
+  padding: 1vh 2vw;
+  margin: 0.5vh 0.25vw;
+  font-size: 2vh;
+  text-decoration: gray;
+}
+.Email ,.Password ,.Cpassword,.Amount{
+  width: 25vw;
+}
+.FName, .LName, .City ,.Country{
+  width: 12vw;
+}
+.form{
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.createAccountButton{
+  width: 10vw;
+  height: 7vh;
+  background-color:#659DBD ;
+  color: white;
+  border: none;
+  font-size: 2.5vh;
+  border-radius: 20px;
+ 
+}
+.createAccountButton:hover{
+  box-shadow: 0 0 20px #659DBD;
+
+}
+.Usercontainer{
+  height: 65vh;
+  width: 60vw;
+  border: 2px solid gray;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 20px gray;
+}
